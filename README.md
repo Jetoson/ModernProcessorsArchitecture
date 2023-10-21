@@ -4,11 +4,11 @@ Hello! These are my notes and assignments for the 3rd Year CS course on Modern P
 
 ## Contents
 
-- Overview
-- Notes
-- Assignments
-- Resources
-- Disclaimer
+- [Overview](#overview)
+- [Notes](#Notes)
+- [Assignments](#Assignments)
+- [Resources](#Resources)
+- [Disclaimer](#Disclaimer)
 
 ## Overview
 
