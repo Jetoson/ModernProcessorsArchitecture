@@ -46,6 +46,30 @@
   - Consists of two main components: interface description and the circuit's behavior.
   - The provided code snippets show how to define, implement, and instantiate a module.
 
+ ```Verilog
+// module definition 
+        module <module_name>(
+            <type_of_port_1> <name_of_port_1>, 
+            <type_of_port_2> <name_of_port_2>,
+            ...
+            <type_of_port_n> <name_of_port_n>
+            ); 
+        
+        // module implementation.
+        
+        endmodule
+
+        // module instantiation.
+        // Not connecting all ports of a module is not an error!
+        module_name <instance_name>(
+            .name_of_port_1(<name_of_argument_1>), 
+            .name_of_port_2(<name_of_argument_2>), 
+            .name_of_port_3(<name_of_argument_3>), 
+            ..., 
+            .name_of_port_n(<name_of_argument_n>)
+        );
+```
+
 - **Declarations**
   - **Wire**: Represents physical connections between components.
   - **Register (reg)**: Holds a value and can be assigned a value.
